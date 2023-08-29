@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <table style="margin: 0% auto;
+    width: 200px;
+    height: 25px;">
+        <thead>
+            <center><h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ;">Faça seu teste</h1></center>
+        </thead>
+        <tbody id="lista">
+            <tr>
+                <td><input type="text" placeholder="Eletrodoméstico" id="Eletrodomestico"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="Potencia" placeholder="Potência"></td>
+            </tr>
+            <tr>
+                <td><input type="number"  id="Tempo" placeholder="Tempo em minutos"></td>
+            </tr>
+            <tr>
+              <td>
+                <button onclick="adicionar()">Adicionar novo Eletrodomestico</button>
+                <button onclick="calcular()">Calcular Fim do Mês</button>
+              </td>
+            </tr>
+          </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><td></td></tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
